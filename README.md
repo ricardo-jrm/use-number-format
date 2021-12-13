@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🟣 `@ricardo-jrm/use-number-format`
+# 🌘 `@ricardo-jrm/use-number-format`
 
 <b>Format numbers with React</b>
 
