@@ -1,11 +1,8 @@
-import { Dispatch, SetStateAction, useState } from 'react';
+import { useMemo } from 'react';
+import { numberFormat } from '@ricardo-jrm/number-format';
 
 /**
- * useExampleHook
+ * useNumberFormat
  */
-export const useExampleHook = <T>(
-  initialValue: T,
-): [T, Dispatch<SetStateAction<T>>] => {
-  const [state, stateSet] = useState<T>(initialValue);
-  return [state, stateSet];
-};
+export const useNumberFormat = (num: number, format?: string) =>
+  useMemo(() => numberFormat(num, format), [num, format]);
