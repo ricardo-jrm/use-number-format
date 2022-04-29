@@ -1,5 +1,5 @@
 import { useMemo } from 'react';
-import { numberFormat } from '@ricardo-jrm/number-format';
+import { numberFormat } from '@ricardojrmcom/number-format';
 
 /**
  * useNumberFormat
